@@ -2,7 +2,7 @@
 	"name": "@duncan3142/eslint-cnfg",
 	"description": "ESLint configuration",
 	"keywords": [],
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"author": "Duncan Giles",
 	"type": "module",
 	"license": "MIT",
@@ -13,7 +13,7 @@
 	"exports": {
 		".": {
 			"types": "./.tsc/dist/eslint.config.d.cts",
-			"import": "./.tsc/dist/eslint.config.cjs"
+			"require": "./.tsc/dist/eslint.config.cjs"
 		}
 	},
 	"files": [
