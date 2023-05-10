@@ -12,7 +12,7 @@ const config: Linter.Config = {
 	env: {
 		node: true,
 	},
-	plugins: ["@typescript-eslint", "eslint-comments", "import", "promise", "vitest"],
+	plugins: ["@typescript-eslint", "eslint-comments", "import", "promise"],
 	extends: [
 		"eslint:recommended",
 		"plugin:import/recommended",
@@ -22,7 +22,6 @@ const config: Linter.Config = {
 		"plugin:@typescript-eslint/recommended-requiring-type-checking",
 		"plugin:@typescript-eslint/strict",
 		"plugin:eslint-comments/recommended",
-		"plugin:vitest/all",
 		"prettier",
 	],
 	settings: {
@@ -37,7 +36,6 @@ const config: Linter.Config = {
 	},
 	rules: {
 		"default-case": "off",
-
 		"consistent-return": "off",
 		"arrow-body-style": ["error", "as-needed", { requireReturnForObjectLiteral: true }],
 		"prefer-arrow-callback": "error",
@@ -99,9 +97,6 @@ const config: Linter.Config = {
 			{ argsIgnorePattern: "^_", varsIgnorePattern: "^_" },
 		],
 		"promise/no-return-wrap": ["error", { allowReject: true }],
-		"vitest/consistent-test-filename": ["error", { pattern: "^.*\\.spec\\.ts$" }],
-		"vitest/max-expects": "off",
-		"vitest/no-hooks": "off",
 	},
 	overrides: [
 		{
@@ -120,6 +115,16 @@ const config: Linter.Config = {
 			rules: {
 				// Allow `require()`
 				"@typescript-eslint/no-var-requires": "off",
+			},
+		},
+		{
+			files: ["*.spec.ts"],
+			plugins: ["vitest"],
+			extends: ["plugin:vitest/all"],
+			rules: {
+				"vitest/consistent-test-filename": ["error", { pattern: "^.*\\.spec\\.ts$" }],
+				"vitest/max-expects": "off",
+				"vitest/no-hooks": "off",
 			},
 		},
 		{
