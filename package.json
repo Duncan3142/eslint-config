@@ -2,24 +2,26 @@
 	"name": "@duncan3142/eslint-config",
 	"description": "ESLint configuration",
 	"keywords": [],
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"author": "Duncan Giles",
-	"type": "module",
+	"type": "commonjs",
 	"license": "MIT",
 	"engines": {
 		"node": "^18.0.0",
 		"pnpm": "^8.0.0"
 	},
+	"main": "./.tsc/dist/eslint.config.js",
+	"types": "./.tsc/dist/eslint.config.d.ts",
 	"exports": {
 		".": {
-			"types": "./.tsc/dist/eslint.config.d.cts",
-			"require": "./.tsc/dist/eslint.config.cjs"
+			"types": "./.tsc/dist/eslint.config.d.ts",
+			"require": "./.tsc/dist/eslint.config.js"
 		}
 	},
 	"files": [
-		"./.tsc/dist/*.cjs",
+		"./.tsc/dist/*.js",
 		"./.tsc/dist/*.map",
-		"./.tsc/dist/*.cts"
+		"./.tsc/dist/*.ts"
 	],
 	"peerDependencies": {
 		"@typescript-eslint/eslint-plugin": "^5.59.2",
