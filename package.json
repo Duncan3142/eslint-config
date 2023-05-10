@@ -1,5 +1,6 @@
 {
 	"name": "@duncan3142/eslint-config",
+	"repository": "https://github.com/duncan3142/eslint-config",
 	"description": "ESLint configuration",
 	"keywords": [],
 	"version": "1.0.3",
