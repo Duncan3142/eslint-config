@@ -22,7 +22,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-	<a href="https://github.com/Duncan3142/eslint-cnfg">
+	<a href="https://github.com/Duncan3142/eslint-config">
 		<img src="assets/logo.png" alt="Logo" width="80" height="80">
 	</a>
 
@@ -31,7 +31,7 @@
 <p align="center">
 	Shared ESLint configuration
 	<br />
-	<a href="https://github.com/Duncan3142/eslint-cnfg"><strong>Explore the docs</strong></a>
+	<a href="https://github.com/Duncan3142/eslint-config"><strong>Explore the docs</strong></a>
 </p>
 
 </div>
@@ -87,14 +87,14 @@ Distributed under the MIT License. See [LICENSE.txt](./LICENSE.txt) for more inf
 
 Duncan Giles - duncan3142@gmail.com
 
-Project Link: [https://github.com/Duncan3142/eslint-cnfg](https://github.com/Duncan3142/eslint-cnfg)
+Project Link: [https://github.com/Duncan3142/eslint-config](https://github.com/Duncan3142/eslint-config)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[license-shield]: https://img.shields.io/github/license/Duncan3142/eslint-cnfg.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/Duncan3142/eslint-config.svg?style=for-the-badge
 [license-url]: ./LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/duncan3142
