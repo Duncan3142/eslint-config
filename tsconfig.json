@@ -6,7 +6,6 @@
 		"emitDeclarationOnly": false,
 		"rootDir": "src",
 		"outDir": ".tsc/dist",
-		"skipLibCheck": true,
 		"tsBuildInfoFile": ".tsc/dist/tsconfig.tsbuildinfo",
 		"composite": false
 	}
