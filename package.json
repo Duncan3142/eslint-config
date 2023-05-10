@@ -1,8 +1,8 @@
 {
-	"name": "@duncan3142/eslint-cnfg",
+	"name": "@duncan3142/eslint-config",
 	"description": "ESLint configuration",
 	"keywords": [],
-	"version": "1.0.3",
+	"version": "1.0.0",
 	"author": "Duncan Giles",
 	"type": "module",
 	"license": "MIT",
