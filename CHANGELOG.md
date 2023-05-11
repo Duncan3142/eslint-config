@@ -1,5 +1,11 @@
 # @duncan3142/eslint-config
 
+## 1.0.4
+
+### Patch Changes
+
+- ESlint types peer dep
+
 ## 1.0.3
 
 ### Patch Changes
