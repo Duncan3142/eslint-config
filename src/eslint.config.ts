@@ -82,7 +82,7 @@ const config: Linter.Config = {
 		"@typescript-eslint/explicit-module-boundary-types": "off",
 		"@typescript-eslint/prefer-for-of": "off",
 		"@typescript-eslint/switch-exhaustiveness-check": "error",
-		"@typescript-eslint/consistent-type-definitions": "off",
+		"@typescript-eslint/consistent-type-definitions": ["error", "interface"],
 		"@typescript-eslint/array-type": ["error", { default: "generic" }],
 		"@typescript-eslint/explicit-function-return-type": "off",
 		"@typescript-eslint/no-explicit-any": "off",
