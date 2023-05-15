@@ -1,5 +1,11 @@
 # @duncan3142/eslint-config
 
+## 1.0.8
+
+### Patch Changes
+
+- d209a43: Consistent type defs
+
 ## 1.0.7
 
 ### Patch Changes
