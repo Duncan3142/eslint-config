@@ -1,5 +1,11 @@
 # @duncan3142/eslint-config
 
+## 1.0.7
+
+### Patch Changes
+
+- 615fca0: Infer boundaries
+
 ## 1.0.6
 
 ### Patch Changes
