@@ -63,6 +63,6 @@
 		"@types/eslint": "^8.37.0",
 		"commitlint": "^17.6.3",
 		"husky": "^8.0.3",
-		"turbo": "^1.9.5"
+		"turbo": "^1.9.6"
 	}
 }

@@ -39,10 +39,7 @@ const config: Linter.Config = {
 		"consistent-return": "off",
 		"arrow-body-style": ["error", "as-needed", { requireReturnForObjectLiteral: true }],
 		"prefer-arrow-callback": "error",
-		"no-underscore-dangle": [
-			"error",
-			{ allowAfterThis: true, enforceInMethodNames: false, allow: ["__typename"] },
-		],
+		"no-underscore-dangle": "off",
 		"no-await-in-loop": "error",
 		"no-continue": "off",
 		"no-nested-ternary": "off",
