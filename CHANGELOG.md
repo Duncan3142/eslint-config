@@ -1,5 +1,11 @@
 # @duncan3142/eslint-config
 
+## 1.0.10
+
+### Patch Changes
+
+- a5f8a80: Allow underscore dangle
+
 ## 1.0.9
 
 ### Patch Changes
