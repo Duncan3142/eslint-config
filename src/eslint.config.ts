@@ -65,6 +65,7 @@ const config: Linter.Config = {
 		"import/no-default-export": "off",
 		"import/no-unresolved": "error",
 		"import/extensions": "off",
+		"import/no-cycle": "error",
 		"import/no-extraneous-dependencies": [
 			"error",
 			{
