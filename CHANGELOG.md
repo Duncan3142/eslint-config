@@ -1,5 +1,11 @@
 # @duncan3142/eslint-config
 
+## 1.0.11
+
+### Patch Changes
+
+- 4e5697a: No cycle
+
 ## 1.0.10
 
 ### Patch Changes
