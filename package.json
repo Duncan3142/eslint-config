@@ -36,15 +36,15 @@
 		"eslint-plugin-vitest": "^0.1.4"
 	},
 	"dependencies": {
-		"@typescript-eslint/eslint-plugin": "^5.59.6",
-		"@typescript-eslint/parser": "^5.59.6",
-		"eslint": "^8.40.0",
+		"@typescript-eslint/eslint-plugin": "^5.59.11",
+		"@typescript-eslint/parser": "^5.59.11",
+		"eslint": "^8.43.0",
 		"eslint-config-prettier": "^8.8.0",
 		"eslint-import-resolver-typescript": "^3.5.5",
 		"eslint-plugin-eslint-comments": "^3.2.0",
 		"eslint-plugin-import": "^2.27.5",
 		"eslint-plugin-promise": "^6.1.1",
-		"eslint-plugin-vitest": "^0.1.5"
+		"eslint-plugin-vitest": "^0.2.6"
 	},
 	"scripts": {
 		"prepare": "./.husky/install.sh",
@@ -57,12 +57,12 @@
 	},
 	"devDependencies": {
 		"@changesets/cli": "^2.26.1",
-		"@commitlint/config-conventional": "^17.6.3",
+		"@commitlint/config-conventional": "^17.6.5",
 		"@duncan3142/prettier-config": "^1.0.7",
-		"@duncan3142/tsc-config": "^1.0.5",
-		"@types/eslint": "^8.37.0",
-		"commitlint": "^17.6.3",
+		"@duncan3142/tsc-config": "^1.0.6",
+		"@types/eslint": "^8.40.2",
+		"commitlint": "^17.6.5",
 		"husky": "^8.0.3",
-		"turbo": "^1.9.8"
+		"turbo": "^1.10.3"
 	}
 }
