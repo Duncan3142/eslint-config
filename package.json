@@ -36,9 +36,9 @@
 		"eslint-plugin-vitest": "^0.1.4"
 	},
 	"dependencies": {
-		"@typescript-eslint/eslint-plugin": "^5.59.11",
-		"@typescript-eslint/parser": "^5.59.11",
-		"eslint": "^8.43.0",
+		"@typescript-eslint/eslint-plugin": "^5.61.0",
+		"@typescript-eslint/parser": "^5.61.0",
+		"eslint": "^8.44.0",
 		"eslint-config-prettier": "^8.8.0",
 		"eslint-import-resolver-typescript": "^3.5.5",
 		"eslint-plugin-eslint-comments": "^3.2.0",
@@ -56,13 +56,13 @@
 		"build": "turbo run build:all --cache-dir=\"./.turbo\""
 	},
 	"devDependencies": {
-		"@changesets/cli": "^2.26.1",
-		"@commitlint/config-conventional": "^17.6.5",
+		"@changesets/cli": "^2.26.2",
+		"@commitlint/config-conventional": "^17.6.6",
 		"@duncan3142/prettier-config": "^1.0.7",
-		"@duncan3142/tsc-config": "^1.0.6",
+		"@duncan3142/tsc-config": "^1.0.7",
 		"@types/eslint": "^8.40.2",
-		"commitlint": "^17.6.5",
+		"commitlint": "^17.6.6",
 		"husky": "^8.0.3",
-		"turbo": "^1.10.3"
+		"turbo": "^1.10.7"
 	}
 }
