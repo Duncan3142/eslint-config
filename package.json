@@ -3,7 +3,7 @@
 	"repository": "https://github.com/duncan3142/eslint-config",
 	"description": "ESLint configuration",
 	"keywords": [],
-	"version": "1.0.12",
+	"version": "1.0.13",
 	"author": "Duncan Giles",
 	"type": "commonjs",
 	"license": "MIT",
