@@ -1,5 +1,11 @@
 # @duncan3142/eslint-config
 
+## 1.0.14
+
+### Patch Changes
+
+- be32933: Object shorthand
+
 ## 1.0.13
 
 ### Patch Changes
