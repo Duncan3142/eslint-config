@@ -25,19 +25,19 @@
 		"./.tsc/dist/*.ts"
 	],
 	"peerDependencies": {
-		"@types/eslint": "^8.37.0",
-		"@typescript-eslint/eslint-plugin": "^5.59.2",
-		"@typescript-eslint/parser": "^5.59.2",
-		"eslint": "^8.12.0",
-		"eslint-import-resolver-typescript": "^3.2.5",
+		"@types/eslint": "^8.44.0",
+		"@typescript-eslint/eslint-plugin": "^6.0.0",
+		"@typescript-eslint/parser": "^6.0.0",
+		"eslint": "^8.44.0",
+		"eslint-import-resolver-typescript": "^3.5.5",
 		"eslint-plugin-eslint-comments": "^3.2.0",
-		"eslint-plugin-import": "^2.25.4",
-		"eslint-plugin-promise": "^6.0.0",
-		"eslint-plugin-vitest": "^0.1.4"
+		"eslint-plugin-import": "^2.27.5",
+		"eslint-plugin-promise": "^6.1.1",
+		"eslint-plugin-vitest": "^0.2.6"
 	},
 	"dependencies": {
-		"@typescript-eslint/eslint-plugin": "^5.61.0",
-		"@typescript-eslint/parser": "^5.61.0",
+		"@typescript-eslint/eslint-plugin": "^6.0.0",
+		"@typescript-eslint/parser": "^6.0.0",
 		"eslint": "^8.44.0",
 		"eslint-config-prettier": "^8.8.0",
 		"eslint-import-resolver-typescript": "^3.5.5",
@@ -59,8 +59,8 @@
 		"@changesets/cli": "^2.26.2",
 		"@commitlint/config-conventional": "^17.6.6",
 		"@duncan3142/prettier-config": "^1.0.7",
-		"@duncan3142/tsc-config": "^1.0.7",
-		"@types/eslint": "^8.40.2",
+		"@duncan3142/tsc-config": "^1.0.8",
+		"@types/eslint": "^8.44.0",
 		"commitlint": "^17.6.6",
 		"husky": "^8.0.3",
 		"turbo": "^1.10.7"
