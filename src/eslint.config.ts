@@ -36,6 +36,7 @@ const config: Linter.Config = {
 	},
 	rules: {
 		"default-case": "off",
+		"object-shorthand": ["error", "always"],
 		"consistent-return": "off",
 		"arrow-body-style": ["error", "as-needed", { requireReturnForObjectLiteral: true }],
 		"prefer-arrow-callback": "error",
